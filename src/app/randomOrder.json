@@ -1,0 +1,92 @@
+{
+  "name": "root",
+  "type": "folder",
+  "children": [
+    { "name": "utils.js", "type": "file" },
+    {
+      "name": "components",
+      "type": "folder",
+      "children": [
+        { "name": "Header.js", "type": "file" },
+        { "name": "Button.js", "type": "file" },
+        {
+          "name": "UI",
+          "type": "folder",
+          "children": [
+            { "name": "Dropdown.js", "type": "file" },
+            { "name": "Modal.js", "type": "file" }
+          ]
+        }
+      ]
+    },
+    { "name": "README.md", "type": "file" },
+    {
+      "name": "hooks",
+      "type": "folder",
+      "children": [
+        { "name": "useAuth.js", "type": "file" },
+        { "name": "useFetch.js", "type": "file" }
+      ]
+    },
+    { "name": "index.js", "type": "file" },
+    {
+      "name": "styles",
+      "type": "folder",
+      "children": [
+        { "name": "globals.css", "type": "file" },
+        { "name": "theme.css", "type": "file" }
+      ]
+    },
+    {
+      "name": "pages",
+      "type": "folder",
+      "children": [
+        { "name": "_app.js", "type": "file" },
+        {
+          "name": "api",
+          "type": "folder",
+          "children": [
+            { "name": "hello.js", "type": "file" },
+            {
+              "name": "user",
+              "type": "folder",
+              "children": [
+                { "name": "[id].js", "type": "file" },
+                { "name": "index.js", "type": "file" }
+              ]
+            }
+          ]
+        },
+        { "name": "about.js", "type": "file" }
+      ]
+    },
+    {
+      "name": "config",
+      "type": "folder",
+      "children": [{ "name": "config.json", "type": "file" }]
+    },
+    { "name": "server.js", "type": "file" },
+    {
+      "name": "tests",
+      "type": "folder",
+      "children": [
+        { "name": "Navbar.test.js", "type": "file" },
+        { "name": "Button.test.js", "type": "file" }
+      ]
+    },
+    { "name": "package.json", "type": "file" },
+    {
+      "name": "public",
+      "type": "folder",
+      "children": [
+        { "name": "favicon.ico", "type": "file" },
+        { "name": "logo.png", "type": "file" }
+      ]
+    },
+    {
+      "name": "middleware",
+      "type": "folder",
+      "children": [{ "name": "auth.js", "type": "file" }]
+    }
+  ]
+}
