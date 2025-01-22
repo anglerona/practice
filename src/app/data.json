@@ -1,0 +1,124 @@
+{
+  "name": "root",
+  "type": "folder",
+  "children": [
+    {
+      "name": "pages",
+      "type": "folder",
+      "children": [
+        { "name": "index.js", "type": "file" },
+        { "name": "_app.js", "type": "file" },
+        {
+          "name": "api",
+          "type": "folder",
+          "children": [
+            { "name": "hello.js", "type": "file" },
+            {
+              "name": "user",
+              "type": "folder",
+              "children": [
+                { "name": "index.js", "type": "file" },
+                { "name": "[id].js", "type": "file" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "components",
+      "type": "folder",
+      "children": [
+        { "name": "Navbar.js", "type": "file" },
+        { "name": "Footer.js", "type": "file" },
+        {
+          "name": "UI",
+          "type": "folder",
+          "children": [
+            { "name": "Button.js", "type": "file" },
+            { "name": "Modal.js", "type": "file" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "styles",
+      "type": "folder",
+      "children": [
+        { "name": "globals.css", "type": "file" },
+        { "name": "Home.module.css", "type": "file" }
+      ]
+    },
+    {
+      "name": "public",
+      "type": "folder",
+      "children": [
+        { "name": "favicon.ico", "type": "file" },
+        { "name": "logo.png", "type": "file" }
+      ]
+    },
+    {
+      "name": "utils",
+      "type": "folder",
+      "children": [
+        { "name": "helpers.js", "type": "file" },
+        { "name": "api.js", "type": "file" }
+      ]
+    },
+    {
+      "name": "config",
+      "type": "folder",
+      "children": [{ "name": "config.js", "type": "file" }]
+    },
+    {
+      "name": "hooks",
+      "type": "folder",
+      "children": [
+        { "name": "useAuth.js", "type": "file" },
+        { "name": "useFetch.js", "type": "file" }
+      ]
+    },
+    {
+      "name": "contexts",
+      "type": "folder",
+      "children": [{ "name": "AuthContext.js", "type": "file" }]
+    },
+    {
+      "name": "middleware",
+      "type": "folder",
+      "children": [{ "name": "auth.js", "type": "file" }]
+    },
+    {
+      "name": "data",
+      "type": "folder",
+      "children": [
+        { "name": "users.json", "type": "file" },
+        { "name": "products.json", "type": "file" }
+      ]
+    },
+    {
+      "name": "tests",
+      "type": "folder",
+      "children": [
+        { "name": "Navbar.test.js", "type": "file" },
+        { "name": "Button.test.js", "type": "file" }
+      ]
+    },
+    {
+      "name": "scripts",
+      "type": "folder",
+      "children": [
+        { "name": "build.js", "type": "file" },
+        { "name": "deploy.js", "type": "file" }
+      ]
+    },
+    {
+      "name": "empty-folder",
+      "type": "folder",
+      "children": []
+    },
+    { "name": ".gitignore", "type": "file" },
+    { "name": "package.json", "type": "file" },
+    { "name": "README.md", "type": "file" }
+  ]
+}
